@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">YotoFace</string>
+
+    <string name="action_settings">设置</string>
+    <string name="action_login">登录</string>
+    <string name="action_register">注册</string>
+    <string name="action_search">查找</string>
+    <string name="username">请输入账号</string>
+    <string name="password">请输入密码</string>
+    <string name="phone">请输入手机号</string>
+    <string name="returnmsg">查看考勤情况</string>
+    <string name="myspace">我的人脸空间</string>
+    <string name="title_activity_ying_jian">搜索附近摄像头</string>
+    <string name="title_activity_return_msg">空间签到情况</string>
+</resources>

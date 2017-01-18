@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- 查看考勤情况, 在溢出菜单中展示 -->
+    <item android:id="@+id/returnmsg"
+        android:title="@string/returnmsg"
+        />
+
+</menu>

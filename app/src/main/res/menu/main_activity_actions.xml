@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--搜索, 应该作为动作按钮展示-->
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/action_search"
+        app:showAsAction="ifRoom" />
+    <!-- 设置, 在溢出菜单中展示 -->
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <!-- 登录, 在溢出菜单中展示 -->
+    <item android:id="@+id/action_login"
+        android:title="@string/action_login"
+        app:showAsAction="never" />
+    <!-- 注册, 在溢出菜单中展示 -->
+    <item android:id="@+id/action_register"
+        android:title="@string/action_register"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mr_chen.yotuface.SpaceMemberActivity"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:id="@+id/t"
+            android:text="空间成员如下"
+            android:textSize="40dp"
+            android:gravity="center"
+
+            android:textColor="@color/myBarColor"
+            android:layout_width="300dp"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:onClick="addMember"
+            android:id="@+id/ib"
+            android:src="@drawable/plus1"
+            android:layout_marginTop="20dp"
+            android:background="@color/myBarColor"
+            android:layout_toRightOf="@id/t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <Button
+        android:onClick="showmember"
+        android:text="是否显示所有成员"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <Button
+            android:textColor="@color/myBarColor"
+            android:text="发起考勤指令"
+            android:id="@+id/sendSms"
+            android:textSize="20dp"
+            android:onClick="sendSMS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ListView
+            android:id="@+id/space_member_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
